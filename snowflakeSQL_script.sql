@@ -1,7 +1,7 @@
 -- Procedures are generally used for automation, but in this code we will try something new.
 -- We will create Transaction_table with procedure to get column names dynamically.
 -- You can use this method if you need pivot table but having problem with long SQL scripts because of naming columns.
--- In this code 
+-- In this code we will create columns according to financial week numbers.
 
 CREATE OR REPLACE PROCEDURE procedure_for_dynamic_loop()
   RETURNS string
